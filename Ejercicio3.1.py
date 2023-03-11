@@ -1,3 +1,5 @@
+#Ejercicio en el cual se añade una linea mas de ramas
+
 class Node:
     def __init__(self, value):
         self.value = value #raiz, el valor del nodo
@@ -38,7 +40,6 @@ root.left.left.left = Node('H')
 root.left.left.right = Node('I')
 root.left.right.left = Node('J')
 root.left.right.right = Node('K')
-
 root.right.left.left = Node('L')
 root.right.left.right = Node('M')
 root.right.right.left = Node('N')
